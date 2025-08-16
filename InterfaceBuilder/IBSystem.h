@@ -27,6 +27,12 @@
 #ifndef IBSystem_INCLUDE
 #define IBSystem_INCLUDE
 
+#define RETAIN(x)  [(x) retain]
+#define RELEASE(x)  [(x) release]
+#define AUTORELEASE(x)  [(x) autorelease]
+#define ASSIGN(x,y)  ((x)=(y))
+
+
 #ifdef GNUSTEP_WITH_DLL 
 
 #if BUILD_libInterfaceBuilder_DLL

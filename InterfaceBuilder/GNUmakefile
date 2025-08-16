@@ -31,7 +31,8 @@ include ./Version
 # Additional libraries
 #
 
-InterfaceBuilder_LIBRARIES_DEPEND_UPON += -lgnustep-gui -l$(FOUNDATION_LIBRARY_NAME)
+# InterfaceBuilder_LIBRARIES_DEPEND_UPON += -lgnustep-gui -l$(FOUNDATION_LIBRARY_NAME)
+InterfaceBuilder_LIBRARIES_DEPEND_UPON += -framework Cocoa 
 
 #
 # Header files
